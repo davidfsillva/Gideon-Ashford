@@ -666,7 +666,7 @@ footer {
 
     
     .hero {
-        min-height: 95vh; /* antes era 100vh */
+        min-height: 85vh; /* antes era 100vh */
         padding: 5rem 0 3rem;
     }
 }
