@@ -612,22 +612,7 @@ footer {
     color: #d97706;
 }
 
-/* impedir scroll quando menu aberto */
-.no-scroll {
-    overflow: hidden;
-}
 
-/* animação links mobile */
-@keyframes fadeSlide {
-    from {
-        opacity: 0;
-        transform: translateX(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
 
 /* responsividade */
 @media (max-width: 1000px) {
@@ -685,10 +670,6 @@ footer {
     .hero {
         min-height: 95vh; /* antes era 100vh */
         padding: 5rem 0 3rem;
-    }
-
-    .nav-links a {
-        opacity: 0;
     }
 }
 
