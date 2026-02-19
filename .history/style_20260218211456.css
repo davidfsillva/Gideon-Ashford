@@ -223,7 +223,7 @@ html {
 }
 
 .hero-image {
-    background: url('img/1.webp') center/cover;
+    background: url('img/') center/cover;
     height: 580px;
     border-radius: 40px;
     box-shadow: 0 40px 70px -15px rgba(0,0,0,0.3);
@@ -365,7 +365,7 @@ html {
 
 .about-image {
     height: 550px;
-    background: url('img/2.webp') center/cover;
+    background: url('img/2.jpg') center/cover;
     border-radius: 40px;
     box-shadow: 0 30px 40px -15px rgba(0,0,0,0.25);
 }
