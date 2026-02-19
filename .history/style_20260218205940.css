@@ -43,19 +43,6 @@ html {
     transition: 0.3s ease;
 }
 
-.hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-}
-
-.hamburger.active span:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
-}
-
-
 
 /* header / nav */
 .navbar {
@@ -614,22 +601,15 @@ footer {
 
 /* responsividade */
 @media (max-width: 1000px) {
-
     .hero h1 { font-size: 3rem; }
-
-    .hero-grid, 
-    .about-grid, 
-    .services-grid, 
-    .pricing-grid, 
-    .testimonial-grid {
+    .hero-grid, .about-grid, .services-grid, .pricing-grid, .testimonial-grid {
         grid-template-columns: 1fr;
     }
-
     .hero-image { height: 450px; }
-
     .navbar { padding: 1rem; }
+    .nav-links { display: none; }
 
-    .nav-links {
+        .nav-links {
         position: fixed;
         top: 0;
         right: -100%;
@@ -651,4 +631,3 @@ footer {
         display: flex;
     }
 }
-
